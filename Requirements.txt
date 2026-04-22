@@ -1,0 +1,44 @@
+# =============================================
+# Conversational SIEM Assistant
+# Python Dependencies
+# =============================================
+# Install all dependencies using:
+#   pip install -r requirements.txt
+# =============================================
+
+
+# ── Web Application ───────────────────────────
+streamlit          # Web framework — turns Python into interactive web app
+
+
+# ── AI / NLP ──────────────────────────────────
+groq               # Groq API client — connects to LLaMA 3.3 70B AI model
+
+
+# ── SIEM / Network ────────────────────────────
+requests           # HTTP library — connects to Wazuh REST API and sends photos
+urllib3            # URL handling — disables SSL warnings for Wazuh API calls
+
+
+# ── PDF Report Generation ─────────────────────
+fpdf2              # PDF generator — creates professional threat investigation reports
+
+
+# ── Charts & Visualization ────────────────────
+plotly             # Interactive charts — pie chart, bar chart, timeline in dashboard
+matplotlib         # Static chart generator — creates pie chart image for PDF report
+
+
+# ── Data Processing ───────────────────────────
+pandas             # Data processing — structures alerts into tables and DataFrames
+
+
+# ── Photo / Screenshot ────────────────────────
+flask              # Web server — receives intruder screenshots from Windows agent
+opencv-python      # Computer vision — webcam access for intruder photo capture
+Pillow             # Image library — screenshot capture using PIL ImageGrab
+
+
+# ── Windows Endpoint (capture.py only) ────────
+# Install these only on the Windows machine:
+#   pip install opencv-python Pillow requests
