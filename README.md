@@ -277,8 +277,8 @@ The system uses the following analytical methods:
 ## 👥 Team
 
 - **Domain:** Cybersecurity + Artificial Intelligence
-- **MAIN LEAD:** Sri Vishnu Mallik
-- **DEVELOPERS:** Charan Sri Adhinay , Sai Babu
+- **Main Lead:** Sri Vishnu Mallik
+- **Developers:** Charan Sri Adhinay , Sai Babu
 
 
 
